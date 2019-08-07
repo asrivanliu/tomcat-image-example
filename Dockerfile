@@ -1,4 +1,4 @@
-FROM java
+FROM centos
 MAINTAINER ivan
 RUN apt-get update
 RUN apt-get install -y wget
